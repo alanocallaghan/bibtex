@@ -1,4 +1,3 @@
-
 @article{Aczel2020,
   title = {Discussion Points for {{Bayesian}} Inference},
   author = {Aczel, Balazs and Hoekstra, Rink and Gelman, Andrew and Wagenmakers, Eric-Jan and Klugkist, Irene G. and Rouder, Jeffrey N. and Vandekerckhove, Joachim and Lee, Michael D. and Morey, Richard D. and Vanpaemel, Wolf and Dienes, Zoltan and {van Ravenzwaaij}, Don},
@@ -74,6 +73,20 @@
   doi = {10.1093/bioinformatics/bty533},
   langid = {english},
   file = {/home/alan/Zotero/storage/MFSSC2VT/Ahmed et al. - 2019 - GrandPrix scaling up the Bayesian GPLVM for singl.pdf}
+}
+
+@techreport{Aijo2019,
+  type = {Preprint},
+  title = {Splotch: {{Robust}} Estimation of Aligned Spatial Temporal Gene Expression Data},
+  shorttitle = {Splotch},
+  author = {{\"A}ij{\"o}, Tarmo and Maniatis, Silas and Vickovic, Sanja and Kang, Kristy and Cuevas, Miguel and Braine, Catherine and Phatnani, Hemali and Lundeberg, Joakim and Bonneau, Richard},
+  year = {2019},
+  month = sep,
+  institution = {{Bioinformatics}},
+  doi = {10.1101/757096},
+  abstract = {Abstract           Spatial genomics technologies enable new approaches to study how cells interact and function in intact multicellular environments but present a host of technical and computational challenges. Here we describe Splotch, a novel computational framework for the analysis of spatially resolved transcriptomics data. Splotch aligns transcriptomics data from multiple tissue sections and timepoints to generate improved posterior estimates of gene expression. We demonstrate alignment of a large corpus of single-cell RNA-seq data into an automatically generated spatial-temporal coordinate and study optimal design for spatial transcriptomics experiments.},
+  langid = {english},
+  file = {/home/alan/Zotero/storage/2C7VB4AV/Äijö et al. - 2019 - Splotch Robust estimation of aligned spatial temp.pdf}
 }
 
 @article{Aird2011,
@@ -374,6 +387,22 @@
   file = {/home/alan/Zotero/storage/EW73DGB4/Arvaniti et al. - 2016 - Whole-transcriptome analysis of UUO mouse model of.pdf}
 }
 
+@article{AvilaCobos2020,
+  title = {Benchmarking of Cell Type Deconvolution Pipelines for Transcriptomics Data},
+  author = {Avila Cobos, Francisco and {Alquicira-Hernandez}, Jos{\'e} and Powell, Joseph E. and Mestdagh, Pieter and De Preter, Katleen},
+  year = {2020},
+  month = dec,
+  journal = {Nature Communications},
+  volume = {11},
+  number = {1},
+  pages = {5650},
+  issn = {2041-1723},
+  doi = {10.1038/s41467-020-19015-1},
+  abstract = {Abstract             Many computational methods have been developed to infer cell type proportions from bulk transcriptomics data. However, an evaluation of the impact of data transformation, pre-processing, marker selection, cell type composition and choice of methodology on the deconvolution results is still lacking. Using five single-cell RNA-sequencing (scRNA-seq) datasets, we generate pseudo-bulk mixtures to evaluate the combined impact of these factors. Both bulk deconvolution methodologies and those that use scRNA-seq data as reference perform best when applied to data in linear scale and the choice of normalization has a dramatic impact on some, but not all methods. Overall, methods that use scRNA-seq data have comparable performance to the best performing bulk methods whereas semi-supervised approaches show higher error values. Moreover, failure to include cell types in the reference that are present in a mixture leads to substantially worse results, regardless of the previous choices. Altogether, we evaluate the combined impact of factors affecting the deconvolution task across different datasets and propose general guidelines to maximize its performance.},
+  langid = {english},
+  file = {/home/alan/Zotero/storage/JJPMEN9Y/Avila Cobos et al. - 2020 - Benchmarking of cell type deconvolution pipelines .pdf}
+}
+
 @article{Awh2012,
   title = {Top-down versus Bottom-up Attentional Control: A Failed Theoretical Dichotomy},
   shorttitle = {Top-down versus Bottom-up Attentional Control},
@@ -489,6 +518,19 @@
   abstract = {Markov chain Monte Carlo methods are often deemed too computationally intensive to be of any practical use for big data applications, and in particular for inference on datasets containing a large number n of individual data points, also known as tall datasets. In scenarios where data are assumed independent, various approaches to scale up the MetropolisHastings algorithm in a Bayesian inference context have been recently proposed in machine learning and computational statistics. These approaches can be grouped into two categories: divide-and-conquer approaches and, subsampling-based algorithms. The aims of this article are as follows. First, we present a comprehensive review of the existing literature, commenting on the underlying assumptions and theoretical guarantees of each method. Second, by leveraging our understanding of these limitations, we propose an original subsampling-based approach relying on a control variate method which samples under regularity conditions from a distribution provably close to the posterior distribution of interest, yet can require less than O(n) data point likelihood evaluations at each iteration for certain statistical models in favourable scenarios. Finally, we emphasize that we have only been able so far to propose subsampling-based methods which display good performance in scenarios where the Bernstein-von Mises approximation of the target posterior distribution is excellent. It remains an open challenge to develop such methods in scenarios where the Bernstein-von Mises approximation is poor.},
   langid = {english},
   file = {/home/alan/Zotero/storage/U6KBG6WS/Bardenet et al. - On Markov chain Monte Carlo methods for tall data.pdf}
+}
+
+@techreport{Batson2019,
+  type = {Preprint},
+  title = {Molecular {{Cross-Validation}} for {{Single-Cell RNA-seq}}},
+  author = {Batson, Joshua and Royer, Lo{\"i}c and Webber, James},
+  year = {2019},
+  month = sep,
+  institution = {{Bioinformatics}},
+  doi = {10.1101/786269},
+  abstract = {Single-cell RNA sequencing enables researchers to study the gene expression of individual cells. However, in high-throughput methods the portrait of each individual cell is noisy, representing thousands of the hundreds of thousands of mRNA molecules originally present. While many methods for denoising single-cell data have been proposed, a principled procedure for selecting and calibrating the best method for a given dataset has been lacking. We present ``molecular cross-validation,'' a statistically principled and data-driven approach for estimating the accuracy of any denoising method without the need for ground-truth. We validate this approach for three denoising methods\textemdash principal component analysis, network diffusion, and a deep autoencoder\textemdash on a dataset of deeply-sequenced neurons. We show that molecular cross-validation correctly selects the optimal parameters for each method and identifies the best method for the dataset.},
+  langid = {english},
+  file = {/home/alan/Zotero/storage/3C925UNN/Batson et al. - 2019 - Molecular Cross-Validation for Single-Cell RNA-seq.pdf}
 }
 
 @article{Bednarik2004,
@@ -2004,6 +2046,22 @@
   file = {/home/alan/Zotero/storage/JUY6CTQY/Elowitz - 2002 - Stochastic Gene Expression in a Single Cell.pdf}
 }
 
+@misc{Elvira2022,
+  title = {Rethinking the {{Effective Sample Size}}},
+  author = {Elvira, V{\'i}ctor and Martino, Luca and Robert, Christian P.},
+  year = {2022},
+  month = mar,
+  eprint = {1809.04129},
+  eprinttype = {arxiv},
+  primaryclass = {stat},
+  doi = {10.1111/insr.12500},
+  abstract = {The effective sample size (ESS) is widely used in sample-based simulation methods for assessing the quality of a Monte Carlo approximation of a given distribution and of related integrals. In this paper, we revisit the approximation of the ESS in the specific context of importance sampling (IS). The derivation of this approximation, that we will denote as \$\textbackslash widehat\{\textbackslash text\{ESS\}\}\$, is partially available in Kong (1992). This approximation has been widely used in the last 25 years due to its simplicity as a practical rule of thumb in a wide variety of importance sampling methods. However, we show that the multiple assumptions and approximations in the derivation of \$\textbackslash widehat\{\textbackslash text\{ESS\}\}\$, makes it difficult to be considered even as a reasonable approximation of the ESS. We extend the discussion of the \$\textbackslash widehat\{\textbackslash text\{ESS\}\}\$ in the multiple importance sampling (MIS) setting, we display numerical examples, and we discuss several avenues for developing alternative metrics. This paper does not cover the use of ESS for MCMC algorithms.},
+  archiveprefix = {arXiv},
+  langid = {english},
+  keywords = {Statistics - Computation},
+  file = {/home/alan/Zotero/storage/QHS3C2Z5/Elvira et al. - 2022 - Rethinking the Effective Sample Size.pdf}
+}
+
 @article{Eraslan2019,
   title = {Single-Cell {{RNA-seq}} Denoising Using a Deep Count Autoencoder},
   author = {Eraslan, G{\"o}kcen and Simon, Lukas M. and Mircea, Maria and Mueller, Nikola S. and Theis, Fabian J.},
@@ -2230,6 +2288,23 @@
   langid = {english},
   keywords = {60412 Quantitative Genetics (incl. Disease and Trait Mapping Genetics)},
   file = {/home/alan/Documents/Papers/Funkhouser et al. - 2020 - Deciphering Sex-Specific Genetic Architectures Usi.pdf}
+}
+
+@article{Galili2018,
+  title = {Heatmaply: An {{R}} Package for Creating Interactive Cluster Heatmaps for Online Publishing},
+  shorttitle = {Heatmaply},
+  author = {Galili, Tal and O'Callaghan, Alan and Sidi, Jonathan and Sievert, Carson},
+  editor = {Wren, Jonathan},
+  year = {2018},
+  month = may,
+  journal = {Bioinformatics},
+  volume = {34},
+  number = {9},
+  pages = {1600--1602},
+  issn = {1367-4803, 1460-2059},
+  doi = {10.1093/bioinformatics/btx657},
+  langid = {english},
+  file = {/home/alan/Zotero/storage/R67U8PT2/Galili et al. - 2018 - heatmaply an R package for creating interactive c.pdf}
 }
 
 @article{Gao2021,
@@ -2763,6 +2838,15 @@
   file = {/home/alan/Zotero/storage/5LUIBISX/Hamilton et al. - 2014 - Digital pathology and image analysis in tissue bio.pdf}
 }
 
+@article{Handl,
+  title = {Weighted Elastic Net for Unsupervised Domain Adaptation with Application to Age Prediction from {{DNA}} Methylation Data},
+  author = {Handl, Lisa and Jalali, Adrin and Scherer, Michael and Eggeling, Ralf and Pfeifer, Nico},
+  pages = {10},
+  abstract = {Motivation: Predictive models are a powerful tool for solving complex problems in computational biology. They are typically designed to predict or classify data coming from the same unknown distribution as the training data. In many real-world settings, however, uncontrolled biological or technical factors can lead to a distribution mismatch between datasets acquired at different times, causing model performance to deteriorate on new data. A common additional obstacle in computational biology is scarce data with many more features than samples. To address these problems, we propose a method for unsupervised domain adaptation that is based on a weighted elastic net. The key idea of our approach is to compare dependencies between inputs in training and test data and to increase the cost of differently behaving features in the elastic net regularization term. In doing so, we encourage the model to assign a higher importance to features that are robust and behave similarly across domains.},
+  langid = {english},
+  file = {/home/alan/Zotero/storage/PZTJPCWB/Handl et al. - Weighted elastic net for unsupervised domain adapt.pdf}
+}
+
 @article{Hansen2012,
   title = {Removing Technical Variability in {{RNA-seq}} Data Using Conditional Quantile Normalization},
   author = {Hansen, K. D. and Irizarry, R. A. and Wu, Z.},
@@ -2793,6 +2877,19 @@
   abstract = {RNA sequencing (RNA-seq) is a genomic approach for the detection and quantitative analysis of messenger RNA molecules in a biological sample and is useful for studying cellular responses. RNA-seq has fueled much discovery and innovation in medicine over recent years. For practical reasons, the technique is usually conducted on samples comprising thousands to millions of cells. However, this has hindered direct assessment of the fundamental unit of biology\textemdash the cell. Since the first single-cell RNA-sequencing (scRNA-seq) study was published in 2009, many more have been conducted, mostly by specialist laboratories with unique skills in wet-lab single-cell genomics, bioinformatics, and computation. However, with the increasing commercial availability of scRNA-seq platforms, and the rapid ongoing maturation of bioinformatics approaches, a point has been reached where any biomedical researcher or clinician can use scRNA-seq to make exciting discoveries. In this review, we present a practical guide to help researchers design their first scRNA-seq studies, including introductory information on experimental hardware, protocol choice, quality control, data analysis and biological interpretation.},
   langid = {english},
   file = {/home/alan/Documents/Papers/Haque et al. - 2017 - A practical guide to single-cell RNA-sequencing fo.pdf}
+}
+
+@techreport{Harris2022,
+  type = {Preprint},
+  title = {Transcriptional Dynamics of Colorectal Cancer Risk Associated Variation at 11q23.1 Are Correlated with Tuft Cell Abundance and Marker Expression {\emph{in Silico}}},
+  author = {Harris, Bradley T. and Rajasekaran, Vidya and Blackmur, James P. and O'Callaghan, Alan and Donnelly, Kevin and Timofeeva, Maria and {Vaughan-Shaw}, Peter G. and Din, Farhat V. N. and Dunlop, Malcolm G. and Farrington, Susan M.},
+  year = {2022},
+  month = mar,
+  institution = {{Bioinformatics}},
+  doi = {10.1101/2022.03.29.485182},
+  abstract = {Abstract                        Colorectal cancer (CRC) is characterised by heritable risk that is not well understood. Heritable, genetic variation at 11q23.1 is associated with increased colorectal cancer (CRC) risk, demonstrating eQTL effects on 3 cis- and 23 trans-eQTL targets. We sought to determine the relationship between 11q23.1 cis- and trans-eQTL target expression and test for potential cell-specificity. scRNAseq from 32,361 healthy colonic epithelial cells was aggregated and subject to weighted gene co-expression network analysis (WGCNA). One module (blue) included 19 trans-eQTL targets and was correlated with             C11orf53             expression only. Following unsupervised clustering of single cells, the expression of 19 trans-eQTL targets was greatest and most variable in cluster number 11, which transcriptionally resembled tuft cells. 14 trans-eQTL targets were found to demarcate this cluster, 11 of which were corroborated in a second dataset. Intra-cluster WGCNA and module preservation analysis then identified twelve 11q23.1 trans-eQTL targets to comprise a network that was specific to cluster 11. Finally, linear modelling and differential abundance testing showed 11q23.1 trans-eQTL target expression was predictive of cluster 11 abundance. Our findings suggest 11q23.1 trans-eQTL targets comprise a             C11orf53-             related network that is likely tuft cell-specific and reduced expression of these genes correlates with reduced tuft cell abundance             in silico             .},
+  langid = {english},
+  file = {/home/alan/Zotero/storage/AYZ9SACG/Harris et al. - 2022 - Transcriptional dynamics of colorectal cancer risk.pdf}
 }
 
 @article{Hastings,
@@ -3049,6 +3146,21 @@
   file = {/home/alan/Zotero/storage/IF3VGQ5N/Hu and He - 2007 - Enhanced Quantile Normalization of Microarray Data.pdf}
 }
 
+@article{Hu2015,
+  title = {Proper {{Use}} of {{Allele-Specific Expression Improves Statistical Power}} for {\emph{Cis}} -{{eQTL Mapping}} with {{RNA-Seq Data}}},
+  author = {Hu, Yi-Juan and Sun, Wei and Tzeng, Jung-Ying and Perou, Charles M.},
+  year = {2015},
+  month = jul,
+  journal = {Journal of the American Statistical Association},
+  volume = {110},
+  number = {511},
+  pages = {962--974},
+  issn = {0162-1459, 1537-274X},
+  doi = {10.1080/01621459.2015.1038449},
+  langid = {english},
+  file = {/home/alan/Zotero/storage/J6UPNUAJ/Hu et al. - 2015 - Proper Use of Allele-Specific Expression Improves .pdf}
+}
+
 @inproceedings{Huang2012,
   title = {User See, User Point: Gaze and Cursor Alignment in Web Search},
   shorttitle = {User See, User Point},
@@ -3112,6 +3224,23 @@
   doi = {10.1038/nmeth.3252},
   langid = {english},
   file = {/home/alan/Documents/Papers/Huber et al. - 2015 - Orchestrating high-throughput genomic analysis wit.pdf}
+}
+
+@misc{Huggins2020,
+  title = {Validated {{Variational Inference}} via {{Practical Posterior Error Bounds}}},
+  author = {Huggins, Jonathan H. and Kasprzak, Miko{\l}aj and Campbell, Trevor and Broderick, Tamara},
+  year = {2020},
+  month = feb,
+  number = {arXiv:1910.04102},
+  eprint = {1910.04102},
+  eprinttype = {arxiv},
+  primaryclass = {cs, math, stat},
+  publisher = {{arXiv}},
+  abstract = {Variational inference has become an increasingly attractive fast alternative to Markov chain Monte Carlo methods for approximate Bayesian inference. However, a major obstacle to the widespread use of variational methods is the lack of post-hoc accuracy measures that are both theoretically justified and computationally efficient. In this paper, we provide rigorous bounds on the error of posterior mean and uncertainty estimates that arise from full-distribution approximations, as in variational inference. Our bounds are widely applicable, as they require only that the approximating and exact posteriors have polynomial moments. Our bounds are also computationally efficient for variational inference because they require only standard values from variational objectives, straightforward analytic calculations, and simple Monte Carlo estimates. We show that our analysis naturally leads to a new and improved workflow for validated variational inference. Finally, we demonstrate the utility of our proposed workflow and error bounds on a robust regression problem and on a real-data example with a widely used multilevel hierarchical model.},
+  archiveprefix = {arXiv},
+  langid = {english},
+  keywords = {Computer Science - Machine Learning,Mathematics - Statistics Theory,Statistics - Machine Learning,Statistics - Methodology},
+  file = {/home/alan/Zotero/storage/2BEMH9AZ/Huggins et al. - 2020 - Validated Variational Inference via Practical Post.pdf}
 }
 
 @article{Hur,
@@ -3377,6 +3506,22 @@
   abstract = {Researchers view vast zeros in single-cell RNA-seq data differently: some regard zeros as biological signals representing no or low gene expression, while others regard zeros as missing data to be corrected. To help address the controversy, here we discuss the sources of biological and non-biological zeros; introduce five mechanisms of adding non-biological zeros in computational benchmarking; evaluate the impacts of non-biological zeros on data analysis; benchmark three input data types: observed counts, imputed counts, and binarized counts; discuss the open questions regarding non-biological zeros; and advocate the importance of transparent analysis.},
   langid = {english},
   file = {/home/alan/Documents/Papers/Jiang et al. - 2020 - Statistics or biology the zero-inflation controve.pdf}
+}
+
+@article{Jin2021,
+  title = {A Benchmark for {{RNA-seq}} Deconvolution Analysis under Dynamic Testing Environments},
+  author = {Jin, Haijing and Liu, Zhandong},
+  year = {2021},
+  month = dec,
+  journal = {Genome Biology},
+  volume = {22},
+  number = {1},
+  pages = {102},
+  issn = {1474-760X},
+  doi = {10.1186/s13059-021-02290-6},
+  abstract = {Background: Deconvolution analyses have been widely used to track compositional alterations of cell types in gene expression data. Although a large number of novel methods have been developed, due to a lack of understanding of the effects of modeling assumptions and tuning parameters, it is challenging for researchers to select an optimal deconvolution method suitable for the targeted biological conditions. Results: To systematically reveal the pitfalls and challenges of deconvolution analyses, we investigate the impact of several technical and biological factors including simulation model, quantification unit, component number, weight matrix, and unknown content by constructing three benchmarking frameworks. These frameworks cover comparative analysis of 11 popular deconvolution methods under 1766 conditions. Conclusions: We provide new insights to researchers for future application, standardization, and development of deconvolution tools on RNA-seq data.},
+  langid = {english},
+  file = {/home/alan/Zotero/storage/EMFL7M44/Jin and Liu - 2021 - A benchmark for RNA-seq deconvolution analysis und.pdf}
 }
 
 @article{Johndrow2017,
@@ -3939,6 +4084,18 @@
   file = {/home/alan/Zotero/storage/UGACWRG5/Kumar et al. - 2004 - Virtual microscopy for learning and assessment in .pdf}
 }
 
+@article{Kumasaka2016,
+  title = {Fine-Mapping Cellular {{QTLs}} with {{RASQUAL}} and {{ATAC-seq}}},
+  author = {Kumasaka, Natsuhiko and Knights, Andrew J and Gaffney, Daniel J},
+  year = {2016},
+  journal = {Nature Genetics},
+  volume = {48},
+  number = {2},
+  pages = {11},
+  langid = {english},
+  file = {/home/alan/Zotero/storage/WG7MQWJW/Kumasaka et al. - 2016 - Fine-mapping cellular QTLs with RASQUAL and ATAC-s.pdf}
+}
+
 @article{Lahnemann2020,
   title = {Eleven Grand Challenges in Single-Cell Data Science},
   author = {L{\"a}hnemann, David and K{\"o}ster, Johannes and Szczurek, Ewa and McCarthy, Davis J. and Hicks, Stephanie C. and Robinson, Mark D. and Vallejos, Catalina A. and Campbell, Kieran R. and Beerenwinkel, Niko and Mahfouz, Ahmed and Pinello, Luca and Skums, Pavel and Stamatakis, Alexandros and Attolini, Camille Stephan-Otto and Aparicio, Samuel and Baaijens, Jasmijn and Balvert, Marleen and de Barbanson, Buys and Cappuccio, Antonio and Corleone, Giacomo and Dutilh, Bas E. and Florescu, Maria and Guryev, Victor and Holmer, Rens and Jahn, Katharina and Lobo, Thamar Jessurun and Keizer, Emma M. and Khatri, Indu and Kielbasa, Szymon M. and Korbel, Jan O. and Kozlov, Alexey M. and Kuo, Tzu-Hao and Lelieveldt, Boudewijn P.F. and Mandoiu, Ion I. and Marioni, John C. and Marschall, Tobias and M{\"o}lder, Felix and Niknejad, Amir and Raczkowski, Lukasz and Reinders, Marcel and de Ridder, Jeroen and Saliba, Antoine-Emmanuel and Somarakis, Antonios and Stegle, Oliver and Theis, Fabian J. and Yang, Huan and Zelikovsky, Alex and McHardy, Alice C. and Raphael, Benjamin J. and Shah, Sohrab P. and Sch{\"o}nhuth, Alexander},
@@ -4251,6 +4408,33 @@
   abstract = {Abstract           Whether humans are optimal decision makers is still a debated issue in the realm of perceptual decisions. Taking advantage of the direct link between an optimal decision-making and the confidence in that decision, we offer a new dual-decisions method of inferring such confidence without asking for its explicit valuation. Our method circumvents the well-known miscalibration issue with explicit confidence reports as well as the specification of the cost-function required by `opt-out' or post-decision wagering methods. We show that observers' inferred confidence in their first decision and its use in a subsequent decision (conditioned upon the correctness of the first) fall short of both the ideal Bayesian strategy, as well as of an under-sampling approximation or a modified Bayesian strategy augmented with an additional bias term to accommodate global miscalibration of confidence. The observed data are instead significantly better fitted by a model positing that observers use only few confidence levels or states, at odds with the continuous confidence function of stimulus level prescribed by a normative behavior. These findings question the validity of normative-Bayesian accounts of subjective confidence and metaperceptual judgments.},
   langid = {english},
   file = {/home/alan/Zotero/storage/KLAZI4FC/Lisi et al. - 2017 - Discrete confidence levels revealed by sequential .pdf}
+}
+
+@article{Liu2016,
+  title = {Stein {{Variational Gradient Descent}}: {{A General Purpose Bayesian Inference Algorithm}}},
+  shorttitle = {Stein {{Variational Gradient Descent}}},
+  author = {Liu, Qiang and Wang, Dilin},
+  year = {2016},
+  doi = {10.48550/ARXIV.1608.04471},
+  abstract = {We propose a general purpose variational inference algorithm that forms a natural counterpart of gradient descent for optimization. Our method iteratively transports a set of particles to match the target distribution, by applying a form of functional gradient descent that minimizes the KL divergence. Empirical studies are performed on various real world models and datasets, on which our method is competitive with existing state-of-the-art methods. The derivation of our method is based on a new theoretical result that connects the derivative of KL divergence under smooth transforms with Stein's identity and a recently proposed kernelized Stein discrepancy, which is of independent interest.},
+  copyright = {arXiv.org perpetual, non-exclusive license},
+  keywords = {FOS: Computer and information sciences,Machine Learning (cs.LG),Machine Learning (stat.ML)}
+}
+
+@article{Lloyd-Smith2007,
+  title = {Maximum {{Likelihood Estimation}} of the {{Negative Binomial Dispersion Parameter}} for {{Highly Overdispersed Data}}, with {{Applications}} to {{Infectious Diseases}}},
+  author = {{Lloyd-Smith}, James O.},
+  editor = {Rees, Mark},
+  year = {2007},
+  month = feb,
+  journal = {PLoS ONE},
+  volume = {2},
+  number = {2},
+  pages = {e180},
+  issn = {1932-6203},
+  doi = {10.1371/journal.pone.0000180},
+  langid = {english},
+  file = {/home/alan/Zotero/storage/FUMMVMLI/Lloyd-Smith - 2007 - Maximum Likelihood Estimation of the Negative Bino.pdf}
 }
 
 @article{Lopes-Ramos2020,
@@ -4583,6 +4767,22 @@
   file = {/home/alan/Zotero/storage/B88PNWI9/Martinez-Jimenez et al. - 2017 - Aging increases cell-to-cell transcriptional varia.pdf}
 }
 
+@article{Marx2021,
+  title = {Method of the {{Year}}: Spatially Resolved Transcriptomics},
+  shorttitle = {Method of the {{Year}}},
+  author = {Marx, Vivien},
+  year = {2021},
+  month = jan,
+  journal = {Nature Methods},
+  volume = {18},
+  number = {1},
+  pages = {9--14},
+  issn = {1548-7091, 1548-7105},
+  doi = {10.1038/s41592-020-01033-y},
+  langid = {english},
+  file = {/home/alan/Zotero/storage/4UT58BEI/Marx - 2021 - Method of the Year spatially resolved transcripto.pdf}
+}
+
 @article{Matsumoto2011,
   title = {Where {{Do Neurologists Look When Viewing Brain CT Images}}? {{An Eye-Tracking Study Involving Stroke Cases}}},
   shorttitle = {Where {{Do Neurologists Look When Viewing Brain CT Images}}?},
@@ -4873,6 +5073,21 @@
   file = {/home/alan/Documents/Papers/Moghimbeigi et al. - 2008 - Multilevel zero-inflated negative binomial regress.pdf}
 }
 
+@article{Mohammadi2017,
+  title = {A {{Critical Survey}} of {{Deconvolution Methods}} for {{Separating Cell Types}} in {{Complex Tissues}}},
+  author = {Mohammadi, Shahin and Zuckerman, Neta and Goldsmith, Andrea and Grama, Ananth},
+  year = {2017},
+  month = feb,
+  journal = {Proceedings of the IEEE},
+  volume = {105},
+  number = {2},
+  pages = {340--366},
+  issn = {0018-9219, 1558-2256},
+  doi = {10.1109/JPROC.2016.2607121},
+  langid = {english},
+  file = {/home/alan/Zotero/storage/9ISLI7ZI/Mohammadi et al. - 2017 - A Critical Survey of Deconvolution Methods for Sep.jsp}
+}
+
 @article{Mohammed2017,
   title = {Single-{{Cell Landscape}} of {{Transcriptional Heterogeneity}} and {{Cell Fate Decisions}} during {{Mouse Early Gastrulation}}},
   author = {Mohammed, Hisham and {Hernando-Herraez}, Irene and Savino, Aurora and Scialdone, Antonio and Macaulay, Iain and Mulas, Carla and Chandra, Tamir and Voet, Thierry and Dean, Wendy and Nichols, Jennifer and Marioni, John C. and Reik, Wolf},
@@ -4990,6 +5205,22 @@
   keywords = {Gene expression noise,Promoter response,Single cell}
 }
 
+@article{Morgan2018a,
+  title = {Species-Specific Regulation of Angiogenesis by Glucocorticoids Reveals Contrasting Effects on Inflammatory and Angiogenic Pathways},
+  author = {Morgan, Ruth and Keen, John and Halligan, Daniel and O'Callaghan, Alan and Andrew, Ruth and Livingstone, Dawn and Abernethie, Amber and Maltese, Giorgia and Walker, Brian and Hadoke, Patrick},
+  editor = {Addison, Christina L},
+  year = {2018},
+  month = feb,
+  journal = {PLOS ONE},
+  volume = {13},
+  number = {2},
+  pages = {e0192746},
+  issn = {1932-6203},
+  doi = {10.1371/journal.pone.0192746},
+  langid = {english},
+  file = {/home/alan/Zotero/storage/54B553IZ/Morgan et al. - 2018 - Species-specific regulation of angiogenesis by glu.pdf}
+}
+
 @manual{Morgan2021,
   type = {Manual},
   title = {{{BiocParallel}}: {{Bioconductor}} Facilities for Parallel Evaluation},
@@ -5069,6 +5300,38 @@
   file = {/home/alan/Zotero/storage/BDEGM7PJ/Nemeth and Sherlock - 2018 - Merging MCMC Subposteriors through Gaussian-Proces.pdf}
 }
 
+@misc{Neufeld2022,
+  title = {Inference after Latent Variable Estimation for Single-Cell {{RNA}} Sequencing Data},
+  author = {Neufeld, Anna and Gao, Lucy L. and Popp, Joshua and Battle, Alexis and Witten, Daniela},
+  year = {2022},
+  month = jul,
+  number = {arXiv:2207.00554},
+  eprint = {2207.00554},
+  eprinttype = {arxiv},
+  primaryclass = {stat},
+  publisher = {{arXiv}},
+  abstract = {In the analysis of single-cell RNA sequencing data, researchers often characterize the variation between cells by estimating a latent variable, such as cell type or pseudotime, representing some aspect of the individual cell's state. They then test each gene for association with the estimated latent variable. If the same data are used for both of these steps, then standard methods for computing p-values and confidence intervals in the second step will fail to achieve statistical guarantees such as Type 1 error control. Furthermore, approaches such as sample splitting that can be applied to solve similar problems in other settings are not applicable in this context. In this paper, we introduce count splitting, a flexible framework that allows us to carry out valid inference in this setting, for virtually any latent variable estimation technique and inference approach, under a Poisson assumption. We demonstrate the Type 1 error control and power of count splitting in a simulation study, and apply count splitting to a dataset of pluripotent stem cells differentiating to cardiomyocytes.},
+  archiveprefix = {arXiv},
+  langid = {english},
+  keywords = {Statistics - Applications,Statistics - Methodology},
+  file = {/home/alan/Zotero/storage/Z434AAIK/Neufeld et al. - 2022 - Inference after latent variable estimation for sin.pdf}
+}
+
+@article{Newman2019,
+  title = {Determining Cell Type Abundance and Expression from Bulk Tissues with Digital Cytometry},
+  author = {Newman, Aaron M. and Steen, Chlo{\'e} B. and Liu, Chih Long and Gentles, Andrew J. and Chaudhuri, Aadel A. and Scherer, Florian and Khodadoust, Michael S. and Esfahani, Mohammad S. and Luca, Bogdan A. and Steiner, David and Diehn, Maximilian and Alizadeh, Ash A.},
+  year = {2019},
+  month = jul,
+  journal = {Nature Biotechnology},
+  volume = {37},
+  number = {7},
+  pages = {773--782},
+  issn = {1087-0156, 1546-1696},
+  doi = {10.1038/s41587-019-0114-2},
+  langid = {english},
+  file = {/home/alan/Zotero/storage/GSK2QBL9/Newman et al. - 2019 - Determining cell type abundance and expression fro.pdf}
+}
+
 @article{Newton2004,
   title = {Detecting Differential Gene Expression with a Semiparametric Hierarchical Mixture Method},
   author = {Newton, M. A.},
@@ -5135,6 +5398,22 @@
   issn = {1548-7091, 1548-7105},
   doi = {10.1038/s41592-018-0303-9},
   langid = {english}
+}
+
+@article{OCallaghan2022,
+  title = {{{BASiCS}} Workflow: A Step-by-Step Analysis of Expression Variability Using Single Cell {{RNA}} Sequencing Data},
+  shorttitle = {{{BASiCS}} Workflow},
+  author = {O'Callaghan, Alan and Eling, Nils and Marioni, John C. and Vallejos, Catalina A.},
+  year = {2022},
+  month = jan,
+  journal = {F1000Research},
+  volume = {11},
+  pages = {59},
+  issn = {2046-1402},
+  doi = {10.12688/f1000research.74416.1},
+  abstract = {Cell-to-cell gene expression variability is an inherent feature of complex biological~systems, such as immunity and development. Single-cell RNA sequencing is a powerful tool~to quantify this heterogeneity, but it is prone to strong technical noise. In this article, we describe a step-by-step computational workflow that uses the BASiCS Bioconductor package~to robustly quantify expression variability within and between known groups of cells (such~as experimental conditions or cell types). BASiCS uses an integrated framework for data~normalisation, technical noise quantification and downstream analyses, propagating statistical uncertainty across these steps. Within a single seemingly homogeneous cell population,~BASiCS can identify highly variable genes that exhibit strong heterogeneity as well as lowly~variable genes with stable expression. BASiCS also uses a probabilistic decision rule to~identify changes in expression variability between cell populations, whilst avoiding confounding effects related to differences in technical noise or in overall abundance. Using a publicly~available dataset, we guide users through a complete pipeline that includes preliminary steps~for quality control, as well as data exploration using the scater and scran Bioconductor packages. The workflow is accompanied by a Docker image that ensures the reproducibility of~our results.},
+  langid = {english},
+  file = {/home/alan/Zotero/storage/KYE6955V/O'Callaghan et al. - 2022 - BASiCS workflow a step-by-step analysis of expres.pdf}
 }
 
 @article{Ogle2020,
@@ -5816,6 +6095,23 @@
   author = {{R Core Team} and {R Foundation for Statistical Computing}},
   year = {2020},
   address = {{Vienna, Austria}}
+}
+
+@article{Reijns2020,
+  title = {A Sensitive and Affordable Multiplex {{RT-qPCR}} Assay for {{SARS-CoV-2}} Detection},
+  author = {Reijns, Martin A. M. and Thompson, Louise and Acosta, Juan Carlos and Black, Holly A. and {Sanchez-Luque}, Francisco J. and Diamond, Austin and Parry, David A. and Daniels, Alison and O'Shea, Marie and Uggenti, Carolina and Sanchez, Maria C. and O'Callaghan, Alan and McNab, Michelle L. L. and Adamowicz, Martyna and Friman, Elias T. and Hurd, Toby and Jarman, Edward J. and Chee, Frederic Li Mow and Rainger, Jacqueline K. and Walker, Marion and Drake, Camilla and Longman, Dasa and Mordstein, Christine and Warlow, Sophie J. and McKay, Stewart and Slater, Louise and Ansari, Morad and Tomlinson, Ian P. M. and Moore, David and Wilkinson, Nadine and Shepherd, Jill and Templeton, Kate and Johannessen, Ingolfur and {Tait-Burkard}, Christine and Haas, J{\"u}rgen G. and Gilbert, Nick and Adams, Ian R. and Jackson, Andrew P.},
+  editor = {Sugden, Bill},
+  year = {2020},
+  month = dec,
+  journal = {PLOS Biology},
+  volume = {18},
+  number = {12},
+  pages = {e3001030},
+  issn = {1545-7885},
+  doi = {10.1371/journal.pbio.3001030},
+  abstract = {With the ongoing COVID-19 (Coronavirus Disease 2019) pandemic, caused by the novel coronavirus SARS-CoV-2 (Severe Acute Respiratory Syndrome Coronavirus 2), there is a need for sensitive, specific, and affordable diagnostic tests to identify infected individuals, not all of whom are symptomatic. The most sensitive test involves the detection of viral RNA using RT-qPCR (quantitative reverse transcription PCR), with many commercial kits now available for this purpose. However, these are expensive, and supply of such kits in sufficient numbers cannot always be guaranteed. We therefore developed a multiplex assay using well-established SARS-CoV-2 targets alongside a human cellular control (               RPP30               ) and a viral spike-in control (Phocine Herpes Virus 1 [PhHV-1]), which monitor sample quality and nucleic acid extraction efficiency, respectively. Here, we establish that this test performs as well as widely used commercial assays, but at substantially reduced cost. Furthermore, we demonstrate {$>$}1,000-fold variability in material routinely collected by combined nose and throat swabbing and establish a statistically significant correlation between the detected level of human and SARS-CoV-2 nucleic acids. The inclusion of the human control probe in our assay therefore provides a quantitative measure of sample quality that could help reduce false-negative rates. We demonstrate the feasibility of establishing a robust RT-qPCR assay at approximately 10\% of the cost of equivalent commercial assays, which could benefit low-resource environments and make high-volume testing affordable.},
+  langid = {english},
+  file = {/home/alan/Zotero/storage/U7GZ6K7J/Reijns et al. - 2020 - A sensitive and affordable multiplex RT-qPCR assay.pdf}
 }
 
 @techreport{Rendeiro2019,
@@ -6956,6 +7252,15 @@
   file = {/home/alan/Zotero/storage/N7WGU7XD/Stubbington et al. - 2017 - Single-cell transcriptomics to explore the immune .pdf}
 }
 
+@article{Sturm,
+  title = {Comprehensive Evaluation of Transcriptome-Based Cell-Type Quantification Methods for Immuno-Oncology},
+  author = {Sturm, Gregor and Finotello, Francesca and Petitprez, Florent and Zhang, Jitao David and Baumbach, Jan and Fridman, Wolf H and List, Markus and Aneichyk, Tatsiana},
+  pages = {10},
+  abstract = {Motivation: The composition and density of immune cells in the tumor microenvironment (TME) profoundly influence tumor progression and success of anti-cancer therapies. Flow cytometry, immunohistochemistry staining or single-cell sequencing are often unavailable such that we rely on computational methods to estimate the immune-cell composition from bulk RNA-sequencing (RNA-seq) data. Various methods have been proposed recently, yet their capabilities and limitations have not been evaluated systematically. A general guideline leading the research community through cell type deconvolution is missing.},
+  langid = {english},
+  file = {/home/alan/Zotero/storage/43GN5VLQ/Sturm et al. - Comprehensive evaluation of transcriptome-based ce.pdf}
+}
+
 @article{Su2020,
   title = {Simulation, {{Power Evaluation}}, and {{Sample Size Recommendation}} for {{Single Cell RNA-seq}}},
   author = {Su, Kenong and Wu, Zhijin and Wu, Hao},
@@ -6987,6 +7292,21 @@
   file = {/home/alan/Documents/Papers/Sudmant et al. - 2015 - Meta-analysis of RNA-seq expression data across sp.pdf}
 }
 
+@article{Sun2012,
+  title = {A {{Statistical Framework}} for {{eQTL Mapping Using RNA-seq Data}}},
+  author = {Sun, Wei},
+  year = {2012},
+  month = mar,
+  journal = {Biometrics},
+  volume = {68},
+  number = {1},
+  pages = {1--11},
+  issn = {0006341X},
+  doi = {10.1111/j.1541-0420.2011.01654.x},
+  langid = {english},
+  file = {/home/alan/Zotero/storage/Z8AETCBN/Sun - 2012 - A Statistical Framework for eQTL Mapping Using RNA.pdf}
+}
+
 @article{Sun2019,
   ids = {Sun2019b},
   title = {A {{Bayesian}} Mixture Model for Clustering Droplet-Based Single-Cell Transcriptomic Data from Population Studies},
@@ -7001,6 +7321,16 @@
   doi = {10.1038/s41467-019-09639-3},
   langid = {english},
   file = {/home/alan/Zotero/storage/54ZIG4YE/Sun et al. - 2019 - A Bayesian mixture model for clustering droplet-ba.pdf;/home/alan/Zotero/storage/AYUA2PDG/Sun et al. - 2019 - A Bayesian mixture model for clustering droplet-ba.pdf}
+}
+
+@article{Sun2019a,
+  title = {An {{Efficient}} and {{Flexible Method}} for {{Deconvoluting Bulk RNA-Seq Data}} with {{Single-Cell RNA-Seq Data}}},
+  author = {Sun, Xifang and Sun, Shiquan and Yang, Sheng},
+  year = {2019},
+  pages = {18},
+  abstract = {Estimating cell type compositions for complex diseases is an important step to investigate the cellular heterogeneity for understanding disease etiology and potentially facilitate early disease diagnosis and prevention. Here, we developed a computationally statistical method, referring to Multi-Omics Matrix Factorization (MOMF), to estimate the cell-type compositions of bulk RNA sequencing (RNA-seq) data by leveraging cell type-specific gene expression levels from single-cell RNA sequencing (scRNA-seq) data. MOMF not only directly models the count nature of gene expression data, but also effectively accounts for the uncertainty of cell type-specific mean gene expression levels. We demonstrate the benefits of MOMF through three real data applications, i.e., Glioblastomas (GBM), colorectal cancer (CRC) and type II diabetes (T2D) studies. MOMF is able to accurately estimate disease-related cell type proportions, i.e., oligodendrocyte progenitor cells and macrophage cells, which are strongly associated with the survival of GBM and CRC, respectively.},
+  langid = {english},
+  file = {/home/alan/Zotero/storage/NBG5QF7R/Sun et al. - 2019 - An Efficient and Flexible Method for Deconvoluting.pdf}
 }
 
 @article{Svensson2018,
@@ -7032,6 +7362,17 @@
   doi = {10.1038/nprot.2017.149},
   langid = {english},
   file = {/home/alan/Zotero/storage/77G2MMA2/Svensson et al. - 2018 - Exponential scaling of single-cell RNA-seq in the .pdf}
+}
+
+@article{Svensson2019,
+  title = {Droplet {{scRNA-seq}} Is Not Zero-Inflated},
+  author = {Svensson, Valentine},
+  year = {2019},
+  month = mar,
+  journal = {bioRxiv},
+  doi = {10.1101/582064},
+  abstract = {Potential users of single cell RNA-sequencing often encounter a choice between high-throughput droplet based methods and high sensitivity plate based methods. In particular there is a widespread belief that single-cell RNA-sequencing will often fail to generate measurements for particular gene, cell pairs due to molecular inefficiencies, causing data to have an overabundance of zero-values. Investigation of published data of technical controls in droplet based single cell RNA-seq experiments demonstrates the number of zeros in the data is consistent with count statistics, indicating that over-abundances of zero-values in biological data are likely due to biological variation as opposed to technical shortcomings.},
+  langid = {english}
 }
 
 @article{Svensson2020,
@@ -7479,6 +7820,21 @@
   pmid = {24739965}
 }
 
+@article{Tsoucas2019,
+  title = {Accurate Estimation of Cell-Type Composition from Gene Expression Data},
+  author = {Tsoucas, Daphne and Dong, Rui and Chen, Haide and Zhu, Qian and Guo, Guoji and Yuan, Guo-Cheng},
+  year = {2019},
+  month = dec,
+  journal = {Nature Communications},
+  volume = {10},
+  number = {1},
+  pages = {2975},
+  issn = {2041-1723},
+  doi = {10.1038/s41467-019-10802-z},
+  langid = {english},
+  file = {/home/alan/Zotero/storage/6ESYM6KN/Tsoucas et al. - 2019 - Accurate estimation of cell-type composition from .pdf}
+}
+
 @article{Tung2017,
   title = {Batch Effects and the Effective Design of Single-Cell Gene Expression Studies},
   author = {Tung, Po-Yuan and Blischak, John D. and Hsiao, Chiaowen Joyce and Knowles, David A. and Burnett, Jonathan E. and Pritchard, Jonathan K. and Gilad, Yoav},
@@ -7591,6 +7947,22 @@
   abstract = {Single-cell transcriptomics is becoming an important component of the molecular biologist's toolkit. A critical step when analyzing this type of data is normalization. However, normalization is typically performed using methods developed for bulk RNA sequencing or even microarray data, whose suitability for single-cell transcriptomics has not been assessed. In this perspective, we discuss commonly used normalization approaches and illustrate how these can lead to misleading results. Finally, we present alternative approaches and provide recommendations for single-cell RNA sequencing users.},
   langid = {english},
   file = {/home/alan/Zotero/storage/ZNJNGA7I/Vallejos et al. - 2017 - Normalizing single-cell RNA sequencing data chall.pdf}
+}
+
+@article{vandeGeijn2015,
+  title = {{{WASP}}: Allele-Specific Software for Robust Molecular Quantitative Trait Locus Discovery},
+  shorttitle = {{{WASP}}},
+  author = {{van de Geijn}, Bryce and McVicker, Graham and Gilad, Yoav and Pritchard, Jonathan K},
+  year = {2015},
+  month = nov,
+  journal = {Nature Methods},
+  volume = {12},
+  number = {11},
+  pages = {1061--1063},
+  issn = {1548-7091, 1548-7105},
+  doi = {10.1038/nmeth.3582},
+  langid = {english},
+  file = {/home/alan/Zotero/storage/NYUTQQ5X/van de Geijn et al. - 2015 - WASP allele-specific software for robust molecula.pdf}
 }
 
 @techreport{VanDenBerge2018,
@@ -7797,6 +8169,14 @@
   abstract = {Fully simplified expressions for Multivariate Normal updates in non-conjugate variational message passing approximate inference schemes are obtained. The simplicity of these expressions means that the updates can be achieved very efficiently. Since the Multivariate Normal family is the most common for approximating the joint posterior density function of a continuous parameter vector, these fully simplified updates are of great practical benefit.},
   langid = {english},
   file = {/home/alan/Zotero/storage/3J4KFX3W/Wand - Fully Simpliﬁed Multivariate Normal Updates in Non.pdf}
+}
+
+@article{Wang,
+  title = {Bulk Tissue Cell Type Deconvolution with Multi-Subject Single-Cell Expression Reference},
+  author = {Wang, Xuran},
+  pages = {9},
+  langid = {english},
+  file = {/home/alan/Zotero/storage/THJTUXNF/Wang - Bulk tissue cell type deconvolution with multi-sub.pdf}
 }
 
 @article{Wang2009,
@@ -8537,6 +8917,16 @@
   file = {/home/alan/Zotero/storage/3BAFVTX9/Zhao and Koch - 2013 - Learning saliency-based visual attention A review.pdf}
 }
 
+@article{Zhao2021,
+  title = {Deconvolution of Cell Type-Specific Drug Responses in Human Tumor Tissue with Single-Cell {{RNA-seq}}},
+  author = {Zhao, Wenting},
+  year = {2021},
+  pages = {15},
+  abstract = {Background: Preclinical studies require models that recapitulate the cellular diversity of human tumors and provide insight into the drug sensitivities of specific cellular populations. The ideal platform would enable rapid screening of cell type-specific drug sensitivities directly in patient tumor tissue and reveal strategies to overcome intratumoral heterogeneity. Methods: We combine multiplexed drug perturbation in acute slice culture from freshly resected tumors with single-cell RNA sequencing (scRNA-seq) to profile transcriptome-wide drug responses in individual patients. We applied this approach to drug perturbations on slices derived from six glioblastoma (GBM) resections to identify conserved drug responses and to one additional GBM resection to identify patient-specific responses. Results: We used scRNA-seq to demonstrate that acute slice cultures recapitulate the cellular and molecular features of the originating tumor tissue and the feasibility of drug screening from an individual tumor. Detailed investigation of etoposide, a topoisomerase poison, and the histone deacetylase (HDAC) inhibitor panobinostat in acute slice cultures revealed cell type-specific responses across multiple patients. Etoposide has a conserved impact on proliferating tumor cells, while panobinostat treatment affects both tumor and non-tumor populations, including unexpected effects on the immune microenvironment. Conclusions: Acute slice cultures recapitulate the major cellular and molecular features of GBM at the single-cell level. In combination with scRNA-seq, this approach enables cell type-specific analysis of sensitivity to multiple drugs in individual tumors. We anticipate that this approach will facilitate pre-clinical studies that identify effective therapies for solid tumors.},
+  langid = {english},
+  file = {/home/alan/Zotero/storage/PN2JTLSZ/Zhao - 2021 - Deconvolution of cell type-specific drug responses.pdf}
+}
+
 @article{Zhou2012,
   title = {Lognormal and {{Gamma Mixed Negative Binomial Regression}}},
   author = {Zhou, Mingyuan and Li, Lingbo and Dunson, David and Carin, Lawrence},
@@ -8656,6 +9046,13 @@
   pmid = {23935476}
 }
 
+@article{zotero-3797,
+  title = {Normalizing Need Not Be the Norm: Count-Based Math for Analyzing Single-Cell Data},
+  pages = {19},
+  langid = {english},
+  file = {/home/alan/Zotero/storage/7VR3KP6J/Normalizing need not be the norm count-based math.pdf}
+}
+
 @article{Zou2006,
   title = {Sparse {{Principal Component Analysis}}},
   author = {Zou, Hui and Hastie, Trevor and Tibshirani, Robert},
@@ -8687,5 +9084,3 @@
   langid = {english},
   file = {/home/alan/Zotero/storage/RDX3FQLH/žurauskienė and Yau - 2016 - pcaReduce hierarchical clustering of single cell .pdf}
 }
-
-
